@@ -27,9 +27,6 @@ bool balanced(char *expression[], int numTokens) {
                       // Step 2 of this lab, but it won't get full
                       // and it can store any type - <char *> here
 
-    int left;
-    int right;
-
     for (int i = 0; i < numTokens; i++)
     {
         if (*expression[i] == '(')
